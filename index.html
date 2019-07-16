@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--meta-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta property="og:title" content="청첩장: 이종혁 & 박진솔" />
+    <meta property="og:description" content="Save the date" />
+    <meta property="og:image" content="./assets/img/photo/14.jpg" />
+
+    <!--favicon-->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+
+    <!--fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo|Noto+Sans+KR"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css"
+    />
+
+    <!--css-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- 네비게이션 -->
+    <nav>
+      <ul class="menus">
+        <div class="nav-menu" id="nav-main">
+          <span class="char">#Wedding</span>
+          <span class="emoji">👰💜🤵</span>
+        </div>
+        <div class="nav-menu" id="nav-profile">
+          <span class="char">#Invitation</span>
+          <span class="emoji">💌</span>
+        </div>
+        <div class="nav-menu" id="nav-photo">
+          <span class="char">#Photo</span>
+          <span class="emoji">📷</span>
+        </div>
+        <div class="nav-menu" id="nav-location">
+          <span class="char">#Location</span>
+          <span class="emoji">🚗</span>
+        </div>
+      </ul>
+      <div class="progress"></div>
+    </nav>
+
+    <div class="content">
+      <!-- 메인 -->
+      <div class="pane main">
+        <span class="anchor" id="main"></span>
+        <!-- 꽃, 이름 -->
+        <div class="flower">
+          <div class="names">
+            <span class="name">이종혁</span>
+            <span class="em">&</span>
+            <span class="name">박진솔</span>
+          </div>
+        </div>
+
+        <!-- 시간, 웨딩홀 -->
+        <div class="schedule">
+          <span class="date">2019년 9월 28일 오후 12시 20분</span>
+          <span class="address">상록아트홀 1F 그랜드볼룸</span>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- 프로필 -->
+      <div class="pane profile">
+        <span class="anchor" id="profile"></span>
+
+        <h2>Invitation</h2>
+
+        <div class="invitation">
+
+          고운 선율의 피아노를 사랑하는 여자와<br/>
+          그 여자를 사랑하는 남자가 있습니다.<br/>
+          맑은 선율의 기타를 사랑하는 남자와<br/>
+          그 남자를 사랑하는 여자가 있습니다.<br/>
+          <br/>
+          가을 하늘 아래, 그 여자와 남자가 만나<br/>
+          인생의 하모니를 시작하려 합니다.<br/><br/>
+          그 시작의 순간에 사랑으로 함께해주세요.<br/>
+        </div>
+
+        <!-- 프로필 사진 -->
+        <div class="pictures">
+          <div class="seunghyeon">
+            <img src="./assets/img/photo/6.jpg" alt="" />
+          </div>
+          <div class="ring">
+            <img src="./assets/img/wedding-ring.png" alt="" />
+          </div>
+          <div class="ara">
+            <img src="./assets/img/photo/6.jpg" alt="" />
+          </div>
+        </div>
+
+        <!-- 소개 -->
+        <div class="introduction">
+          <div class="relationship">
+            <div class="parents">
+              <span class="father">이경배</span>
+              <span class="mother">정현희</span>
+            </div>
+            <span class="josa">의 장남</span>
+            <span class="child">종혁</span>
+          </div>
+
+          <div class="relationship">
+            <div class="parents">
+              <span class="father">박효진</span>
+              <span class="mother">장유경</span>
+            </div>
+            <span class="josa">의 장녀</span>
+            <span class="child">진솔</span>
+          </div>
+        </div>
+
+        <!-- 연락 -->
+          <div class="contacts">
+            <div class="contact">
+              <span>신랑에게 연락하기</span>
+              <a class="tel" href="tel:01022173490"></a>
+          </div>
+
+          <div class="contact">
+            <span>신부에게 연락하기</span>
+            <a class="tel" href="tel:01066545270"></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 사진첩 -->
+      <div class="pane photo">
+        <span class="anchor" id="photo"></span>
+
+        <h2>Photo</h2>
+
+        <!-- 갤러리 -->
+        <div class="image-slider">
+          <div class="images"></div>
+        </div>
+        <!-- 모달 -->
+        <div id="modal" class="modal">
+          <div class="dim"></div>
+          <span class="close">&times;</span>
+          <img class="modal-content" id="modal-image" />
+        </div>
+      </div>
+
+      <!-- 지도 -->
+      <div class="pane location">
+        <span class="anchor" id="location"></span>
+
+        <h2>Location</h2>
+
+        <div id="map"></div>
+
+        <div class="redirect-map">
+          <div class="header">앱에서 열기</div>
+          <div class="link">
+            <a
+              target="_blank"
+              href="navermaps://?menu=location&pinType=place&lat=37.504263&lng=127.043006&title=상록회관"
+            >
+              <img src="./assets/img/map/naver.png" alt="" />
+            </a>
+            <a
+              target="_blank"
+              href="http://map.daum.net/link/map/강남구 언주로 508,37.504263,127.043006"
+            >
+              <img src="./assets/img/map/kakao.png" alt="" />
+            </a>
+            <a
+              target="_blank"
+              href="http://m.tmap.co.kr/tmap2/mobile/route.jsp?name=강남구 언주로 508&lon=127.043006&lat=37.504263"
+            >
+              <img src="./assets/img/map/tmap.png" alt="" />
+            </a>
+            <a
+              target="_blank"
+              href="comgooglemaps://?q=상록회관&center=37.504263,127.043006"
+            >
+              <img src="./assets/img/map/google.png" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div class="location-desc">
+          <div>
+            <div class="header">
+              <span>주소</span>
+            </div>
+            <span class="desc">서울특별시 강남구 언주로 508 상록회관 1층 그랜드볼룸</span>
+          </div>
+          <div>
+            <div class="header">
+              <img class="icon" src="./assets/img/bus.png" alt="" />
+              <span>버스</span>
+            </div>
+            <div class="bus">
+              <span class="desc">KT 강남지사</span>
+              <div>141 (도봉산 ↔ 염곡동)</div>
+              <div>3422 (장지동 ↔ 압구정동)</div>
+              <span class="desc">한국기술센터, 상록회관</span>
+              <div>146 (상계동↔강남역)</div>
+              <div>360(송파↔여의도)</div>
+              <div>740(덕은동↔잠실역)</div>
+            </div>
+          </div>
+          <div>
+            <div class="header">
+              <img class="icon" src="./assets/img/subway.png" alt="" />
+              <span>지하철</span>
+            </div>
+            <span class="desc">3호선 백석역 5번출구 150M직진 (도보5분)</span>
+          </div>
+        </div>
+      </div>
+      <div class="pane footer">
+        © 2019 Jonghyuk Lee & Rachel Park
+      </div>
+    </div>
+    <!--script-->
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=41edd6c6cb3fd24f57ad354551d1064d"
+    ></script>
+    <script src="smoothScroll.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
