@@ -22,7 +22,7 @@ body {
 }
 
 b {
-  color: #7490c7;
+  color: #de9d83;
 }
 
 nav {
@@ -59,7 +59,7 @@ nav .menus .on .emoji {
 }
 
 nav .progress {
-  background: #7490c7;
+  background: #de9d83;
   display: block;
   width: 100%;
   height: 0.5vw;
@@ -140,11 +140,10 @@ nav .progress {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
-  font-family: 'BRBA_B';
 }
 
 .main .flower .names .name {
-  font-size: 11vw;
+  font-size: 12vw;
 }
 
 .main .flower .names .em {
@@ -223,25 +222,25 @@ nav .progress {
 }
 
 .profile .pictures div.seunghyeon {
-  -webkit-clip-path: circle(40% at 40% 53%);
-          clip-path: circle(40% at 40% 53%);
+  -webkit-clip-path: circle(42% at 55% 51%);
+          clip-path: circle(42% at 55% 51%);
 }
 
 .profile .pictures div.seunghyeon img {
-  -webkit-transform: scale(3.0) translateX(5.3vw) translateY(8vw);
-          transform: scale(3.0) translateX(5.3vw) translateY(8vw);
+  -webkit-transform: scale(2.5) translateX(-4.5vw) translateY(5vw);
+          transform: scale(2.5) translateX(-4.5vw) translateY(5vw);
   -webkit-transform-origin: center;
           transform-origin: center;
 }
 
 .profile .pictures div.ara {
-  -webkit-clip-path: circle(40% at 58% 53%);
-          clip-path: circle(40% at 58% 53%);
+  -webkit-clip-path: circle(42% at 45% 51%);
+          clip-path: circle(42% at 45% 51%);
 }
 
 .profile .pictures div.ara img {
-  -webkit-transform: scale(3.0) translateX(-7.7vw) translateY(6.9vw);
-          transform: scale(3.0) translateX(-7.7vw) translateY(6.9vw);
+  -webkit-transform: scale(2.5) translateX(7.3vw) translateY(2.9vw);
+          transform: scale(2.5) translateX(7.3vw) translateY(2.9vw);
   -webkit-transform-origin: center;
           transform-origin: center;
 }
